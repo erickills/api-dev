@@ -11,7 +11,7 @@ app = FastAPI()
 
 @app.get("/") 
 def root():   # FUNCTION Arbritrary name, you can name it anything. ex. login_user
-    return {"message": "Welcome to my API!"}
+    return {"message": "Welcome to erickills API!"}
 
 @app.get("/posts") # PATH
 def get_posts():
