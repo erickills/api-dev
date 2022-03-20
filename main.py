@@ -24,6 +24,6 @@ def about():
 @app.post("/createposts")
 def create_posts(payLoad: dict = Body(...)):
     print(payLoad)
-    return{"message": "Successfully created posts"}
+    return{"message": "Successfully created posts!!!"}
 
 
