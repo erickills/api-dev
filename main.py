@@ -26,4 +26,6 @@ def create_posts(payLoad: dict = Body(...)):
     print(payLoad)
     return{"message": "Successfully created posts!!!"}
 
+    
+
 
