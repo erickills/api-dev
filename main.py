@@ -16,6 +16,7 @@ def root():   # FUNCTION Arbritrary name, you can name it anything. ex. login_us
 @app.get("/posts") # PATH
 def get_posts():
     return {"data": "this is a post test"}
+    
 
 @app.get("/about")
 def about():
@@ -25,6 +26,7 @@ def about():
 def create_posts(payLoad: dict = Body(...)):
     print(payLoad)
     return{"message": "Successfully created posts!!!"}
+    
 
     
 
